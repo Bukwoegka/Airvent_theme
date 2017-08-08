@@ -1,0 +1,119 @@
+@media screen and (min-width:1px) and (max-width:479px) {
+.main h2 {margin: 23px 0;}
+.main p {font-size: 13px}
+.header__form,.timesheet, .call-button-head {display: none;}
+.top-header img {max-width: 120px;}
+
+.header__offer h1 {font-size: 30px; padding-left: 40px; padding-top: 40px;}
+.header__item {margin-left: 35px;}
+.header__item img {max-width: 40px;}
+.offer-button {margin: 30px auto;}
+.hidden_form_order {margin: 0 auto; width: auto; top: 0; position: relative;border-radius: 0;}
+.hidden_form_order p {margin: 20px;}
+.hidden_form_order h3 {padding-top: 15px;}
+.form_hid_block {padding: 0}
+
+.header__nav-list>li {display: block}
+.header__nav-list>li:first-child {border-top: 1px solid #539CD5; padding-top: 15px;}
+.header__nav-list a {padding: 3px}
+.header__nav .header__submenu {display: block; position: relative; background: transparent; box-shadow: none;}
+.header__submenu li {padding: 0 0 0 10px;}
+.header__nav-list>li {margin: 0;}
+.header__submenu li a {color: white}
+.header__submenu li:last-child a {padding-bottom: 0;}
+.header__nav-list {display: none}
+.active_menu li:last-child {margin-bottom: 10px}
+
+.service-list {display: block}
+.service-list__item {width: 100%; box-shadow: 0 0px 3px rgba(0,0,0,.2);}
+.service-list__image {display: none}
+
+.func_box {flex-direction: column}
+.fun_img {width: auto; height: 300px; order: -1; box-shadow: 0px 1px 5px rgba(0,0,0, 0.2)}
+.fun_text {margin-top: 15px}
+
+.type-list {display: block; text-align: center; vertical-align: text-top}
+.typeof-list__item_color {display: inline-block; margin: 10px; vertical-align: text-top}
+.typeof-list__item {width: 100px;height: 100px;}
+.typeof-list__title {padding-top: 30px; font-size: 12px}
+.label_block__item {display: block; width: 80px !important; height: 40px !important;}
+.menu-menu_for_vent-container {display: none}
+
+.hidden_form_order2 {display: none;}
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+.header__offer h1 {font-size: 35px; padding-top: 40px; text-align: center}
+
+.header__form {display: none}
+.call-button-head {display: none;}
+.header__adress-title, .workday {font-size: 11px;}
+.header__tel {font-size: 12px;}
+.header__tel:first-child {margin-top: 35px}
+.header__adress-title {margin: 24px 0 6px;}
+
+.header__item {margin: 0 0 0 30px}
+.offer-button {margin: 30px auto}
+
+.func_box {flex-direction: column}
+.fun_img {width: auto; height: 300px; order: -1; box-shadow: 0px 1px 5px rgba(0,0,0, 0.2)}
+.service-list {justify-content: center}
+.fun_text {margin-top: 15px}
+.form_hid_block {padding: 0}
+.hidden_form_order {margin: 0 auto; width: auto; top: 0; position: relative;border-radius: 0;}
+.hidden_form_order h3 {padding-top: 15px}
+
+.header__nav-list {display: none}
+.header__nav-list>li {display: block}
+.header__nav-list a {padding: 3px}
+.header__nav .header__submenu {display: block; position: relative; background: transparent; box-shadow: none;}
+.header__submenu li {padding: 0 0 0 10px;}
+.header__nav-list>li {margin: 0;}
+.header__submenu li a {color: white}
+.header__submenu li:last-child a {padding-bottom: 0;}
+.header__nav-list {display: none}
+.active_menu li:last-child {margin-bottom: 10px}
+.menu-menu_for_vent-container {display: none}
+.hidden_form_order2 {display: none;}
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+.header__form {display: none}
+.service-list {justify-content: center}
+
+.func_box {flex-direction: column}
+.fun_img {width: auto; height: 300px; order: -1; box-shadow: 0px 1px 5px rgba(0,0,0, 0.2)}
+.fun_text {margin-top: 15px}
+
+.header__nav-list {display: none}
+.header__nav-list>li {display: block}
+.header__nav-list a {padding: 3px}
+.header__nav .header__submenu {display: block; position: relative; background: transparent; box-shadow: none;}
+.header__submenu li {padding: 0 0 0 10px;}
+.header__nav-list>li {margin: 0;}
+.header__submenu li a {color: white}
+.header__submenu li:last-child a {padding-bottom: 0;}
+.header__nav-list {display: none}
+.active_menu li:last-child {margin-bottom: 10px}
+.menu-menu_for_vent-container {display: none}
+.hidden_form_order2 {display: none;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+.menu_icon {display: none}
+.header__nav-list a {font-size: 10px}
+
+.typeof-list__item_color {margin: 10px}
+
+.label_block {justify-content: space-around}
+
+.label_block .label_block__item {margin: 10px}
+.menu-menu_for_vent-container {display: none}
+
+.hidden_form_order2 {display: none;}
+}
+
+@media screen and (min-width:1201px) {
+.menu_icon {display: none}
+.menu-menu_for_vent-container {display: block}
+}
